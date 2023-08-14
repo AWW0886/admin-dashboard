@@ -11,6 +11,7 @@
 
 ul, li {
     list-style: none;
+    border: 1px solid purple;
 }
 
 .dashboard {
@@ -62,22 +63,22 @@ ul, li {
     display: grid;
     border: 1px solid seagreen;
     grid-column: 2 / 5;
+    margin-top: 50px;
 }
+
 .project-header {
     position: relative;
-    top: 25px;
+    top: -15px;
     border: 1px solid steelblue;
 }
 
 .content-card {
     border: 1px solid seagreen;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /*grid-column: 2 / 5;*/
     gap: 15px;
-    margin: 15px;
-    margin-top: 50px;
-
+    /*margin: 15px;*/
 }
 
 .content-card .card {
@@ -90,27 +91,43 @@ ul, li {
     height: 200px;
 }
 
-.ann-card {
+.right-sidebar {
     display: grid;
-    /*grid-template-columns: 1fr 1fr;*/
-    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
-}
-
-.announcement-trending {
-    display: grid;
-    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
-    grid-column: 5 / 6;
-    /*grid-row: 2 / 3;*/
     border: 1px solid seagreen;
-    /*height: 500px;*/
-    margin: 15px;
     margin-top: 50px;
-    /*align-items: start;*/
+    grid-column: 5 / 6;
     align-content: start;
-    row-gap: 50px;
 }
 
-.announcement-trending .ann-card {
+.ann-header {
+    position: relative;
+    top: -15px;
+    border: 1px solid steelblue;   
+}
+
+.right-content {
+    display: grid;
+    border: 1px solid seagreen;
+    gap: 25px;
+}
+
+.ann-card {
     border: 1px solid steelblue;
     display: grid;
+    height: 300px;
+}
+
+.right-sidebar-trend {
+    border: 1px solid steelblue;
+}
+
+.trend-header {
+    position: relative;
+    bottom: -10px;
+    border: 1px solid steelblue;
+}
+
+.trending-card {
+    border: 1px solid steelblue;
+    height: 300px;
 }
