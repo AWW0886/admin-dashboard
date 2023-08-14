@@ -45,8 +45,10 @@
 .content {
     border: 1px solid seagreen;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-column: 2 / 5;
+    gap: 15px;
+    margin: 15px;
 
 }
 
@@ -56,6 +58,8 @@
     /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
     /*gap: 15px;*/
     display: grid;
+    border: 1px solid steelblue;
+    height: 200px;
 }
 
 .ann-card {
@@ -70,5 +74,13 @@
     grid-column: 5 / 6;
     /*grid-row: 2 / 3;*/
     border: 1px solid seagreen;
-    height: 500px;
+    /*height: 500px;*/
+    margin: 15px;
+    align-items: start;
+}
+
+.announcement-trending .ann-card {
+    border: 1px solid steelblue;
+    display: grid;
+    align-items: start;
 }
