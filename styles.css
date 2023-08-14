@@ -9,11 +9,26 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
+ul, li {
+    list-style: none;
+}
+
 .dashboard {
     display: grid;
     /*grid-column: 1 / 2;*/
     grid-row: 1 / 3;
     border: 1px solid seagreen;
+    align-content: start;
+    row-gap: 50px;
+}
+
+.dashboard .dashboard-header {
+    border: 1px solid steelblue;
+}
+
+.dashboard-list-one,
+.dashboard-list-two {
+    border: 1px solid steelblue;
 }
 
 .header {
@@ -34,6 +49,7 @@
 .user-greeting {
     display: grid;
     /*grid-column: 1 / 2;*/
+    border: 1px solid steelblue;
 }
 
 .subheader-two-menu ul {
@@ -49,6 +65,7 @@
     grid-column: 2 / 5;
     gap: 15px;
     margin: 15px;
+    margin-top: 50px;
 
 }
 
@@ -76,11 +93,13 @@
     border: 1px solid seagreen;
     /*height: 500px;*/
     margin: 15px;
-    align-items: start;
+    margin-top: 50px;
+    /*align-items: start;*/
+    align-content: start;
+    row-gap: 50px;
 }
 
 .announcement-trending .ann-card {
     border: 1px solid steelblue;
     display: grid;
-    align-items: start;
 }
