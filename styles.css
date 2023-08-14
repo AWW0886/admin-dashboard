@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'playfair_displayregular';
+    font-family: 'oswaldregular';
     font-weight: bold;
 }
 
 @font-face {
-    font-family: 'playfair_displayregular';
-    src: url('webfonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
-         url('webfonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-family: 'oswaldregular';
+    src: url('webfonts/oswald-variablefont_wght-webfont.woff2') format('woff2'),
+         url('webfonts/oswald-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,7 +22,7 @@
 
 ul {
     list-style: none;
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
 }
 
 .dashboard {
@@ -30,20 +30,25 @@ ul {
     grid-row: 1 / 3;
     background-color: #172554;
     color: whitesmoke;
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
     align-content: start;
     row-gap: 50px;
     padding-left: 15px;
-
 }
 
-.dashboard .dashboard-header {
-    border: 1px solid steelblue;
+.dashboard-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*border: 1px solid steelblue;*/
+}
+
+.dashboard-title {
+    font-size: 2rem;
 }
 
 .dashboard-list-one,
 .dashboard-list-two {
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
 }
 
 .header {
@@ -51,7 +56,7 @@ ul {
     grid-column: 2 / 6;
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
     padding-right: 15px;
     padding-left: 15px;
     
@@ -60,14 +65,14 @@ ul {
 .one-menu {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    border: 1px solid red;
-    justify-items: end;
+    /*border: 1px solid red;*/
+    /*justify-items: end;*/
 }
 
 .search-container {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     margin: 15px 45px;
 }
 
@@ -76,29 +81,31 @@ img {
 }
 
 .user {
-    border: 1px dashed steelblue;
+    /*border: 1px dashed steelblue;*/
     align-self: center;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .subheader-one,
 .subheader-two {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
 }
 
 .user-greeting {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
 }
 
 .greeting {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .subheader-two-menu {
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
     align-self: center;
 }
 
@@ -109,7 +116,7 @@ img {
 
 .subheader-two-menu li {
     text-align: center;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
 }
 
 button {
@@ -124,9 +131,15 @@ button {
     width: 5rem;
 }
 
+.project-header,
+.ann-header,
+.trend-header {
+    font-size: 1.5rem;
+}
+
 .content {
     display: grid;
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
     grid-column: 2 / 5;
     margin: 50px 15px 15px 15px;
 }
@@ -134,21 +147,21 @@ button {
 .project-header {
     position: relative;
     top: -15px;
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
 }
 
 .content-card {
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
 }
 
 .content-card .card {
-    display: grid;
+    /*display: grid;*/
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
     border-radius: 5px;
     height: 200px;
 }
@@ -160,7 +173,7 @@ button {
 
 .right-sidebar {
     display: grid;
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
     margin: 50px 15px 15px 15px;
     grid-column: 5 / 6;
     align-content: start;
@@ -169,38 +182,38 @@ button {
 .ann-header {
     position: relative;
     top: -15px;
-    border: 1px solid steelblue;   
+    /*border: 1px solid steelblue;*/   
 }
 
 .right-content {
     display: grid;
-    border: 1px solid seagreen;
+    /*border: 1px solid seagreen;*/
     gap: 25px;
 }
 
 .ann-card {
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
     border-radius: 5px;
-    display: grid;
+    /*display: grid;*/
     height: 300px;
 }
 
 .right-sidebar-trend {
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
 }
 
 .trend-header {
     position: relative;
     bottom: -10px;
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
 }
 
 .trending-card {
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
-    border: 1px solid steelblue;
+    /*border: 1px solid steelblue;*/
     border-radius: 5px;
     height: 300px;
 }
