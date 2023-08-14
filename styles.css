@@ -9,7 +9,7 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
-ul, li {
+ul {
     list-style: none;
     border: 1px solid purple;
 }
@@ -21,6 +21,7 @@ ul, li {
     border: 1px solid seagreen;
     align-content: start;
     row-gap: 50px;
+    padding-left: 15px;
 }
 
 .dashboard .dashboard-header {
@@ -38,6 +39,31 @@ ul, li {
     grid-column: 2 / 6;
     /*grid-row: 1 / 2;*/
     border: 1px solid seagreen;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+
+.one-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    border: 1px solid red;
+    justify-items: end;
+}
+
+.search-container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    border: 1px solid purple;
+    margin: 15px 45px;
+}
+
+img {
+    border: 1px dashed purple;
+}
+
+.user {
+    border: 1px dashed steelblue;
+    align-self: center;
 }
 
 .subheader-one,
@@ -49,8 +75,17 @@ ul, li {
 
 .user-greeting {
     display: grid;
-    /*grid-column: 1 / 2;*/
+    grid-template-columns: 1fr 4fr;
     border: 1px solid steelblue;
+}
+
+.greeting {
+    border: 1px solid red;
+}
+
+.subheader-two-menu {
+    border: 1px solid steelblue;
+    align-self: center;
 }
 
 .subheader-two-menu ul {
@@ -59,11 +94,16 @@ ul, li {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.subheader-two-menu li {
+    text-align: center;
+    border: 1px solid orange;
+}
+
 .content {
     display: grid;
     border: 1px solid seagreen;
     grid-column: 2 / 5;
-    margin-top: 50px;
+    margin: 50px 15px 15px 15px;
 }
 
 .project-header {
@@ -94,7 +134,7 @@ ul, li {
 .right-sidebar {
     display: grid;
     border: 1px solid seagreen;
-    margin-top: 50px;
+    margin: 50px 15px 15px 15px;
     grid-column: 5 / 6;
     align-content: start;
 }
