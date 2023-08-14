@@ -59,17 +59,28 @@ ul, li {
 }
 
 .content {
+    display: grid;
+    border: 1px solid seagreen;
+    grid-column: 2 / 5;
+}
+.project-header {
+    position: relative;
+    top: 25px;
+    border: 1px solid steelblue;
+}
+
+.content-card {
     border: 1px solid seagreen;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-column: 2 / 5;
+    /*grid-column: 2 / 5;*/
     gap: 15px;
     margin: 15px;
     margin-top: 50px;
 
 }
 
-.content .card {
+.content-card .card {
     /*display: grid;
     grid-column: 2 / 5;
     /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
