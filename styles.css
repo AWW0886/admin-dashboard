@@ -44,6 +44,12 @@ ul {
     /*border: 1px solid steelblue;*/
 }
 
+.dashboard-header img:hover {
+    /*filter: invert(15%);*/
+    opacity: 0.75;
+    cursor: pointer;
+}
+
 .dashboard-header img {
     filter: invert(100%);
     width: 3.25rem;
@@ -66,6 +72,12 @@ ul {
     grid-template-columns: 1fr 4fr;
     /*align-self: center;*/
     /*border: 1px solid white;*/
+}
+
+.dashboard-list:hover {
+    /*filter: invert(50%);*/
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 .dashboard-list img {
@@ -111,6 +123,17 @@ ul {
     /*border: 1px dashed seagreen;*/
 }
 
+.bell:hover {
+    /*filter: invert(50%);*/
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.small-logo:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
 .search-container {
     display: grid;
     grid-template-columns: 1fr 15fr;
@@ -135,12 +158,13 @@ img {
     /*border: 1px dashed purple;*/
     font-size: 1rem;
     align-self: center;
-    cursor: pointer;
 }
 
-img:hover {
+/*img:hover {
     filter: invert(50%);
-}
+    opacity: 0.75;
+    cursor: pointer;
+}*/
 
 .user {
     /*border: 1px dashed steelblue;*/
@@ -172,6 +196,12 @@ img:hover {
 .user-greeting img {
     margin-left: 15px;
     width: 4rem;
+}
+
+.user-greeting img:hover {
+    /*filter: invert(50%);*/
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 .greeting {
@@ -266,6 +296,11 @@ button:hover {
     /*border: 1px dashed steelblue;*/
     width: 1.5rem;
     margin-left: 5px;
+}
+
+.card-img-container img:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .description {
