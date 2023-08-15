@@ -73,6 +73,13 @@ ul {
     width: 1.25rem;
 }
 
+.dashboard-divider {
+    background-color: gainsboro;
+    justify-self: center;
+    height: 1px;
+    width: 85%;
+}
+
 .header {
     display: grid;
     grid-column: 2 / 6;
@@ -88,16 +95,17 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     /*border: 1px solid red;*/
+    justify-items: end;
 }
 
 .one-menu img {
-    width: 2rem;
+    width: 1.75rem;
     margin-left: 15px;
 }
 
 .search-container {
     display: grid;
-    grid-template-columns: 1fr 12fr;
+    grid-template-columns: 1fr 15fr;
     /*grid-column: 1 / 2;*/
     align-items: center;
     justify-self: start;
@@ -106,7 +114,7 @@ ul {
 }
 
 .search-container img {
-    width: 2rem;
+    width: 1.75rem;
 }
 
 input {
@@ -127,6 +135,7 @@ img {
     align-self: center;
     text-align: center;
     font-size: 1.5rem;
+    margin-right: 30px;
 }
 
 .subheader-one,
@@ -217,16 +226,28 @@ button {
 }
 
 .content-card .card {
-    /*display: grid;*/
+    display: grid;
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
     /*border: 1px solid steelblue;*/
     border-radius: 5px;
-    height: 200px;
+    height: 225px;
     padding: 15px;
     border-left-width: 10px;
     border-left-color: #eab308;
     border-left-style: solid;
+}
+
+.card-img-container {
+    display: flex;
+    justify-content: flex-end;
+    /*border: 1px solid seagreen;*/
+}
+
+.card-img-container img {
+    /*border: 1px dashed steelblue;*/
+    width: 1.5rem;
+    margin-left: 5px;
 }
 
 .description {
@@ -240,6 +261,14 @@ button {
     margin: 40px 15px 15px 15px;
     grid-column: 5 / 6;
     align-content: start;
+}
+
+.divider {
+    background-color: dimgrey;
+    align-self: center;
+    height: 1px;
+    width: 85%;
+    margin: 25px 15px;
 }
 
 .ann-header {
@@ -259,8 +288,8 @@ button {
     box-shadow: 5px 5px 5px darkgrey;
     /*border: 1px solid steelblue;*/
     border-radius: 5px;
-    /*display: grid;*/
-    height: 300px;
+    display: grid;
+    /*height: 300px;*/
     padding: 15px;
 }
 
