@@ -117,7 +117,7 @@ ul {
     width: 1px;
 }
 
-.one-menu img {
+.bell {
     width: 1.75rem;
     margin-left: 15px;
     /*border: 1px dashed seagreen;*/
@@ -127,6 +127,10 @@ ul {
     /*filter: invert(50%);*/
     opacity: 0.5;
     cursor: pointer;
+}
+
+.small-logo {
+    width: 2rem;
 }
 
 .small-logo:hover {
@@ -156,7 +160,7 @@ input {
 
 img {
     /*border: 1px dashed purple;*/
-    font-size: 1rem;
+    /*font-size: 1rem;*/
     align-self: center;
 }
 
@@ -249,7 +253,7 @@ button:hover {
 
 .project-header,
 .ann-header,
-.trend-header {
+.trending-header {
     font-size: 1.5rem;
 }
 
@@ -345,21 +349,41 @@ button:hover {
     padding: 15px;
 }
 
-.right-sidebar-trend {
+.right-sidebar-trending {
     /*border: 1px solid steelblue;*/
 }
 
-.trend-header {
+.trending-header {
     position: relative;
     bottom: -10px;
     /*border: 1px solid steelblue;*/
 }
 
 .trending-card {
+    display: grid;
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
     /*border: 1px solid steelblue;*/
     border-radius: 5px;
-    height: 300px;
+    /*height: 300px;*/
     padding: 15px;
+    row-gap: 40px;
+    min-width: 175px;
+}
+
+.trending-user {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.trending-user img {
+    width: 2rem;
+}
+
+.trending-profile {
+    line-height: 1.25rem;
+}
+
+.trending-project {
+    color: dimgrey;
 }
