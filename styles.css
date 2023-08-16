@@ -22,7 +22,6 @@
 
 ul {
     list-style: none;
-    /*border: 1px solid purple;*/
 }
 
 .dashboard {
@@ -31,7 +30,6 @@ ul {
     align-content: start;
     background-color: #082f49;
     color: whitesmoke;
-    /*border: 1px solid seagreen;*/
     padding: 15px;
     row-gap: 50px;
 }
@@ -39,7 +37,6 @@ ul {
 .dashboard-header {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    /*border: 1px solid steelblue;*/
 }
 
 .dashboard-header img {
@@ -53,12 +50,10 @@ ul {
 
 .dashboard-title {
     font-size: 2rem;
-    /*align-self: center;*/
 }
 
 .dashboard-list-one,
 .dashboard-list-two {
-    /*border: 1px solid steelblue;*/
     font-size: 1.25rem;
     line-height: 2.5rem;
 }
@@ -66,12 +61,9 @@ ul {
 .dashboard-list {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    /*align-items: center;*/
-    /*border: 1px solid white;*/
 }
 
 .dashboard-list:hover {
-    /*filter: invert(50%);*/
     cursor: pointer;
     opacity: 0.75;
 }
@@ -94,16 +86,12 @@ ul {
     grid-column: 2 / 6;
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
-    /*border: 1px solid seagreen;*/
-    /*padding-right: 15px;
-    padding-left: 15px;*/
 }
 
 .subheader-one,
 .subheader-two {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /*border: 1px solid seagreen;*/
 }
 
 .subheader-one {
@@ -115,9 +103,7 @@ ul {
     grid-template-columns: 1fr 15fr;
     align-items: center;
     justify-self: start;
-    /*border: 1px solid purple;*/
     margin-right: 15px;
-    /*margin-left: 30px;*/
 }
 
 .search-container img {
@@ -134,9 +120,7 @@ input {
 .subheader-one-menu {
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr 3fr;
-    /*border: 1px solid red;*/
     align-items: center;
-    /*justify-items: end;*/
     margin-left: 15px;
 }
 
@@ -144,7 +128,6 @@ input {
     justify-self: end;
     margin-right: 5px;
     width: 1.75rem;
-    /*border: 1px dashed seagreen;*/
 }
 
 .bell-img:hover {
@@ -153,7 +136,6 @@ input {
 }
 
 .one-menu-divider {
-    /*align-self: center;*/
     justify-self: end;
     background-color: gainsboro;
     height: 125%;
@@ -165,7 +147,6 @@ input {
     margin-right: 15px;
     margin-left: 15px;
     width: 2rem;
-    /*border: 1px dashed seagreen;*/
 }
 
 .small-logo:hover {
@@ -174,9 +155,6 @@ input {
 }
 
 .user {
-    /*border: 1px dashed steelblue;*/
-    /*align-self: center;*/
-    /*justify-self: start;*/
     text-align: center;
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -190,24 +168,16 @@ input {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
-    /*border: 1px solid steelblue;*/
 }
 
 .user-greeting img {
-    /*margin-left: 15px;*/
     margin-right: 5px;
     width: 4rem;
 }
 
 .user-greeting img:hover {
-    /*filter: invert(50%);*/
     opacity: 0.75;
     cursor: pointer;
-}
-
-.greeting {
-    /*border: 1px solid red;*/
-    /*margin: 0 5px;*/
 }
 
 .handle {
@@ -216,7 +186,6 @@ input {
 }
 
 .subheader-two-menu {
-    /*border: 1px dashed steelblue;*/
     align-self: end;
     margin-bottom: 5px;
 }
@@ -228,7 +197,6 @@ input {
 
 .subheader-two-menu li {
     text-align: center;
-    /*border: 1px solid orange;*/
 }
 
 button {
@@ -256,7 +224,6 @@ button:hover {
 
 .project-container {
     display: grid;
-    /*border: 1px solid seagreen;*/
     grid-column: 2 / 5;
     margin: 40px 15px 15px;
 }
@@ -264,11 +231,9 @@ button:hover {
 .project-header {
     position: relative;
     top: -15px;
-    /*border: 1px solid steelblue;*/
 }
 
 .project-content {
-    /*border: 1px solid seagreen;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
@@ -278,7 +243,6 @@ button:hover {
     display: grid;
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
-    /*border: 1px solid steelblue;*/
     border-left: 10px solid #eab308;
     border-radius: 5px;
     height: 225px;
@@ -288,11 +252,9 @@ button:hover {
 .card-img-container {
     display: flex;
     justify-content: flex-end;
-    /*border: 1px solid seagreen;*/
 }
 
 .card-img-container img {
-    /*border: 1px dashed steelblue;*/
     margin-left: 5px;
     width: 1.5rem;
 }
@@ -309,7 +271,6 @@ button:hover {
 
 .right-sidebar {
     display: grid;
-    /*border: 1px solid seagreen;*/
     grid-column: 5 / 6;
     align-content: start;
     margin: 40px 15px 15px;
@@ -317,13 +278,11 @@ button:hover {
 
 .ann-header {
     position: relative;
-    top: -15px;
-    /*border: 1px solid steelblue;*/   
+    top: -15px;  
 }
 
 .right-content {
     display: grid;
-    /*border: 1px solid seagreen;*/
     gap: 25px;
 }
 
@@ -332,26 +291,19 @@ button:hover {
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 5px darkgrey;
-    /*border: 1px solid steelblue;*/
     padding: 25px 15px;
 }
 
 .ann-divider {
-    /*align-self: center;*/
     background-color: darkgrey;
     margin: 25px 15px;
     height: 1px;
     width: 85%;
 }
 
-.right-sidebar-trending {
-    /*border: 1px solid steelblue;*/
-}
-
 .trending-header {
     position: relative;
     bottom: -10px;
-    /*border: 1px solid steelblue;*/
 }
 
 .trending-card {
@@ -359,8 +311,6 @@ button:hover {
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 5px darkgrey;
-    /*border: 1px solid steelblue;*/
-    /*height: 300px;*/
     padding: 25px 15px;
     row-gap: 40px;
     min-width: 175px;
