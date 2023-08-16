@@ -103,7 +103,7 @@ ul {
     
 }
 
-.one-menu {
+.subheader-one-menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 3fr;
     /*border: 1px solid red;*/
@@ -117,7 +117,7 @@ ul {
     width: 1px;
 }
 
-.bell {
+.bell-img {
     width: 1.75rem;
     margin-left: 15px;
     /*border: 1px dashed seagreen;*/
@@ -257,7 +257,7 @@ button:hover {
     font-size: 1.5rem;
 }
 
-.content {
+.project-container {
     display: grid;
     /*border: 1px solid seagreen;*/
     grid-column: 2 / 5;
@@ -270,21 +270,21 @@ button:hover {
     /*border: 1px solid steelblue;*/
 }
 
-.content-card {
+.project-content {
     /*border: 1px solid seagreen;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
 }
 
-.content-card .card {
+.project-card {
     display: grid;
     background-color: white;
     box-shadow: 5px 5px 5px darkgrey;
     /*border: 1px solid steelblue;*/
     border-radius: 5px;
     height: 225px;
-    padding: 15px;
+    padding: 25px 15px;
     border-left-width: 10px;
     border-left-color: #eab308;
     border-left-style: solid;
@@ -346,7 +346,7 @@ button:hover {
     /*border: 1px solid steelblue;*/
     border-radius: 5px;
     display: grid;
-    padding: 15px;
+    padding: 25px 15px;
 }
 
 .right-sidebar-trending {
@@ -366,7 +366,7 @@ button:hover {
     /*border: 1px solid steelblue;*/
     border-radius: 5px;
     /*height: 300px;*/
-    padding: 15px;
+    padding: 25px 15px;
     row-gap: 40px;
     min-width: 175px;
 }
@@ -380,8 +380,18 @@ button:hover {
     width: 2rem;
 }
 
+.trending-user img:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
 .trending-profile {
     line-height: 1.25rem;
+}
+
+.trending-profile:hover {
+    cursor: pointer;
+    opacity: 0.75;
 }
 
 .trending-project {
